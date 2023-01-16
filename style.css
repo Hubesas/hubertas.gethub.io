@@ -1,0 +1,95 @@
+
+{margin: 0;*
+    padding: 0;
+ font-family: 'Poppins', sans-serif;
+ box-sizing: border-box;}
+
+
+
+.box {
+  height: 200px;
+    width: 200px;
+    margin: 2px;
+    border: solid;
+}
+
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 2px;
+}
+img {
+    height: 200px;
+    width: 80%;
+    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+
+}
+
+button {
+    margin-top: 100px;
+    height: 100px;
+}
+
+.progress {height: 50px;
+width: 100%;
+background: green}
+
+.weapon3 {height: 70px;
+width: 50px;
+background-image: url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_477/MTc0NDU3MTIyMjQ1OTc3NzM0/yu-gi-oh-egyptian-god-card-countdown.webp");
+    background-size: cover;
+}
+.weapon1 {height: 70px;
+    width: 50px;
+
+    background-size: cover;
+background-image: url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_600/MTc0NDU3MTIyMjQ2MDQzMjcw/yu-gi-oh-egyptian-god-card-countdown.webp")}
+.weapon2 {height: 70px;
+    width: 50px;
+    background-size: cover;
+background-image: url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_477/MTc0NDU3MTIyMjQ1OTEyMTk4/yu-gi-oh-egyptian-god-card-countdown.webp")}
+
+
+
+
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 1006px)
+{
+}
+
+/*!*!*Mobilus vaizdas*!*!*/
+
+@media (min-width: 0px) and (max-width: 700px)
+{
+
+}
+
+
+
+
+
+
+
+
+
+/*ScrollBar*/
+html::-webkit-scrollbar {
+    width: 0.5vw;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: #534c41;
+}
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #e6e2b4;
+}
